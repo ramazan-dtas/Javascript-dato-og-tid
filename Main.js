@@ -1,9 +1,3 @@
-/*
-function displayDate(){
-    document.getElementById("showDate").innerHTML = Date();
-}
-*/
-/* This file should be in a folder called `js` */
 /* START KLOKKEN */
 var clock = document.getElementById('clock');
 /*var hexColor = document.getElementById('hex-color');*/
@@ -27,11 +21,8 @@ function hexClock() {
   }
 
   var clockStr = hours + ' : ' + minutes + ' : ' + seconds;
-  /*var hexColorStr = '#' + hours + minutes + seconds;*/
 
   clock.textContent = clockStr;
-  /*hexColor.textContent = hexColorStr;*/
-  /*document.body.style.backgroundColor = hexColorStr;*/
 }
 /* SLUT KLOKKEN */
 /* START DATE */
