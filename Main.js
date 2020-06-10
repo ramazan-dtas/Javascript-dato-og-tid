@@ -1,6 +1,5 @@
 /* START KLOKKEN */
 var clock = document.getElementById('clock');
-/*var hexColor = document.getElementById('hex-color');*/
 
 function hexClock() {
   var time = new Date();
